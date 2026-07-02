@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://tools.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_light"
+    android:padding="24dp"
+    tools:context=".AddEditActivity">
+
+    <TextView
+        android:id="@+id/tv_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إضافة / تعديل كلمة"
+        android:textColor="@color/text_main"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/et_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="الكلمة (Word)"
+        android:textColor="@color/text_main"
+        android:textColorHint="@color/text_secondary"
+        android:background="@android:drawable/edit_text"
+        android:padding="14dp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="المعنى (Meaning)"
+        android:textColor="@color/text_main"
+        android:textColorHint="@color/text_secondary"
+        android:background="@android:drawable/edit_text"
+        android:padding="14dp"
+        android:inputType="text"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/card_background"
+        android:backgroundTint="@color/fab_background"
+        android:padding="12dp" />
+
+</LinearLayout>
